@@ -5,4 +5,4 @@ database_username: ""
 database_password: ""
 
 backup_directory: "{{ parent_directory }}/backups/mariadb_{{ database_name }}"
-database_password_variable: "ANS_BACKUPDB_{{ database_name | upper }}_PASS" 
+database_password_variable: "ANS_BACKUPDB_{{ database_name | upper }}_PASS"
